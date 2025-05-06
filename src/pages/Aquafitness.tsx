@@ -31,7 +31,7 @@ const centers: Center[] = [
     email: 'castelnau@aquabike-center.fr',
     schedules: [
       {
-        activity: "AQUAMIX",
+        activity: "AQUAMIXE",
         times: [
           {
             day: "Lundi",
