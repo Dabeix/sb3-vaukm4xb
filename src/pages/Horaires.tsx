@@ -58,15 +58,14 @@ const centers: Center[] = [
       {
         activity: "BÉBÉ NAGEUR",
         times: [
-          { day: "Samedi", slots: ["9h00", "9h30", "10h00", "10h30", "11h00"] },
-          { day: "Dimanche", slots: ["9h00", "9h30", "10h00", "10h30", "11h00"] }
+          { day: "Samedi", slots: ["9h00", "9h00-9h30", "9h30-10h00", "11h00-11h30", "11h30-12h00"] }
         ]
       },
       {
         activity: "ESPACE BIEN-ÊTRE",
         times: [
-          { day: "Lundi au Vendredi", slots: ["9h00 - 13h30", "17h30 - 20h30"] },
-          { day: "Samedi", slots: ["9h00 - 12h00"] }
+          { day: "Lundi au Vendredi", slots: ["10h00 - 14h00"] },
+          { day: "Samedi et dimanche", slots: ["10h00 - 13h00"] }
         ]
       }
     ]
