@@ -6,37 +6,48 @@ const pricingCategories = [
   {
     title: "Aquafitness",
     prices: [
-      { name: "Séance découverte", price: "15€", highlight: true },
-      { name: "Carte 10 séances", price: "120€", validity: "Validité 6 mois" },
-      { name: "Abonnement mensuel", price: "49.90€/mois", description: "Accès illimité" },
-      { name: "Pass Annuel", price: "499€", description: "Engagement 12 mois" }
+      { name: "Séance découverte", price: "offerte!", highlight: true },
+      { name: "Abonnement 4 séances / mois", price: "47€", validity: "Soit 11€75 la séance" },
+      { name: "Abonnement 6 séances / mois", price: "64€", validity: "Soit 10€66 la séance" },
+      { name: "Abonnement 8 séances / mois", price: "74€", validity: "Soit 09€25 la séance" },
+      { name: "Abonnement 12 séances / mois", price: "84€", validity: "Soit 07€ la séance" },
+      { name: "Abonnement 16 séances / mois", price: "84€", validity: "Soit 05€87 la séance" },
+      { name: "Carte 1 séance", price: "20€", validity: "Carte usage unique" },
+      { name: "Carte 5 séances", price: "90€", validity: "Carte 5 utilisations, soit 18€ la séance" },
+      { name: "Carte 10 séances", price: "159€", validity: "Carte 10 utilisations, soit 15€90 la séance" },
+      { name: "Carte 20 séances", price: "278€", validity: "Carte 20 utilisations, soit 13€90 la séance" },
+      { name: "Carte 40 séances", price: "516€", validity: "Carte 40 utilisations, soit 12€90 la séance" },
+      { name: "Carte 80 séances", price: "952€", validity: "Carte 80 utilisations, soit 11€90 la séance" },
+      { name: "Carte 120 séances", price: "1200€", validity: "Carte 120 utilisations, soit 10€ la séance" }
     ]
   },
   {
     title: "Bébé Nageur",
     prices: [
-      { name: "Séance unique", price: "20€" },
-      { name: "Carte 5 séances", price: "90€", validity: "Validité 3 mois" },
-      { name: "Carte 10 séances", price: "160€", validity: "Validité 6 mois" },
-      { name: "Forfait trimestriel", price: "199€", description: "1 séance/semaine" }
+      { name: "Abonnement annuel", price: "640€", description: "Validité 1 an pour nos 40 séances" },
+      { name: "Séance unique", price: "35€" },
+      { name: "Carte 5 séances", price: "150€", validity: "Validité 3 mois" },
+      { name: "Carte 10 séances", price: "220€", validity: "Validité 6 mois" },
+      { name: "Carte 20 séances", price: "400€", description: "1 séance/semaine" }
     ]
   },
   {
     title: "Espace Bien-être",
     prices: [
-      { name: "Accès journée", price: "25€", description: "Sauna + Piscine" },
-      { name: "Carte 10 entrées", price: "200€", validity: "Validité 1 an" },
-      { name: "Abonnement mensuel", price: "79€/mois", description: "Accès illimité" },
-      { name: "Pass Bien-être", price: "599€", description: "Accès annuel illimité" }
+      { name: "Carnet 10 séances", price: "99€", description: "Sauna à la carte : 9€90 la séance" },
+      { name: "Abonnement 12 séances / mois pour 3 mois", price: "55€/mois", description: "Validité 3 mois, 4€50 la séance" },
+      { name: "Abonnement 12 séances / mois pour 6 mois", price: "45€/mois", description: "Validité 6 mois, 3€75 la séance" },
+      { name: "Abonnement 12 séances / mois pour 12 mois", price: "35€/mois", description: "Validité 1é mois, 2€90 la séance" }
     ]
   },
   {
     title: "Événements",
     prices: [
-      { name: "Privatisation bassin", price: "250€", description: "2h - 10 personnes" },
-      { name: "Pack Premium", price: "450€", description: "3h - 10 personnes" },
-      { name: "Option coach", price: "+50€", description: "Par heure" },
-      { name: "Personne supplémentaire", price: "+25€", description: "Par personne" }
+      { name: "Poupoule Party EVJF/EVJG", price: "329€", description: "2h00 - 10 personnes" },
+      { name: "Anniversaire party", price: "329€", description: "2h30 - 10 personnes" },
+      { name: "Option massage", price: "+45€", description: "Par heure" },
+      { name: "Option champagne", price: "+40€", description: "Prix par bouteille" },
+      { name: "Personne supplémentaire", price: "+15€", description: "Par personne" }
     ]
   }
 ];
